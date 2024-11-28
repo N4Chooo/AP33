@@ -1,3 +1,4 @@
 1.cat consumos.txt | grep -A25 -B1 "SEMANAS" > file1.txt
 2.1cat file1.txt | grep -w -A6 "EDIFICIO A" | grep -v "*" > a.txt
 2.2cat file1.txt | grep -w -A6 "EDIFICIO D" | grep -v "*" > d.txt
+3.1cat totales.txt | grep TOTAL > file2.txt
