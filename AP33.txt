@@ -2,3 +2,4 @@
 2.1cat file1.txt | grep -w -A6 "EDIFICIO A" | grep -v "*" > a.txt
 2.2cat file1.txt | grep -w -A6 "EDIFICIO D" | grep -v "*" > d.txt
 3.1cat totales.txt | grep TOTAL > file2.txt
+3.2cat consumos.txt | grep -w -A2 "DIAS" | grep -v "*" >> file2.txt
